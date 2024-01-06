@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-import loadCSV from './components/loadCSV.vue'
 </script>
 
 <template>
@@ -13,7 +12,6 @@ import loadCSV from './components/loadCSV.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
-  <loadCSV />
 </template>
 
 <style scoped>
